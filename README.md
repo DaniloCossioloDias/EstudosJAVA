@@ -1,6 +1,6 @@
-# 📚 Relembrando do Básico ao Avançado – Java
+# 📚 Relembrando Java
 
-Pedi para o GPT criar uma lista de exercícios para praticar Java, começando do básico e evoluindo até um nível mais avançado.
+Pedi para o GPT criar uma lista de exercícios para praticar Java, começando do básico e evoluindo até um nível um pouco mais avançado.
 
 A ideia é reforçar:
 - Lógica de programação
