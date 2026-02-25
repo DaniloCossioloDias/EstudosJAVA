@@ -1,153 +1,173 @@
-# EstudosJAVA
+# 📚 Relembrando do Básico ao Avançado – Java
 
-Relembrando do básico ao avançado JAVA
+Pedi para o GPT criar uma lista de exercícios para praticar Java, começando do básico e evoluindo até um nível mais avançado.
 
-pedi para o GPT criar uma lista de exercícios para praticar
+A ideia é reforçar:
+- Lógica de programação
+- Estruturas de dados
+- Recursão
+- Ordenação
+- POO
+- Raciocínio para entrevistas técnicas
 
-🔹 ARRAYS
-🟢 1. Maior e Menor Elemento
+---
 
-Dado um array de inteiros, percorra-o apenas uma vez e encontre o maior e o menor valor. Não utilize métodos prontos de ordenação.
+# 🔹 ARRAYS
 
-🟢 2. Segundo Maior Elemento
+## 🟢 1. Maior e Menor Elemento
+Percorra um array de inteiros apenas uma vez e encontre o maior e o menor valor.  
+Não utilize métodos prontos de ordenação.
 
-Dado um array de inteiros, encontre o segundo maior valor distinto sem ordenar o array.
+## 🟢 2. Segundo Maior Elemento
+Encontre o segundo maior valor **distinto** em um array sem ordenar os elementos.
 
-🟡 3. Remover Duplicados (Sem Set)
+## 🟡 3. Remover Duplicados (Sem Set)
+Retorne um novo array contendo apenas valores únicos.  
+Não utilize `Set` ou estruturas prontas de remoção automática.
 
-Dado um array de inteiros, retorne um novo array contendo apenas valores únicos. Não utilize Set ou estruturas prontas para remoção automática de duplicados.
+## 🟡 4. Mover Zeros para o Final
+Mova todos os zeros para o final do array mantendo a ordem dos demais elementos.  
+Tente fazer com o menor número possível de operações.
 
-🟡 4. Mover Zeros para o Final
+## 🟠 5. Produto de Todos Exceto Ele Mesmo
+Retorne um novo array onde cada posição contém o produto de todos os elementos do array original, exceto o da própria posição.  
+Não use divisão.
 
-Dado um array, mova todos os zeros para o final mantendo a ordem relativa dos outros elementos. Faça isso com o menor número possível de operações.
+## 🔴 6. Subarray com Maior Soma (Kadane)
+Implemente um algoritmo eficiente `O(n)` para encontrar o subarray contíguo com a maior soma possível.
 
-🟠 5. Produto de Todos Exceto Ele Mesmo
+---
 
-Dado um array de inteiros, retorne um novo array onde cada posição contém o produto de todos os elementos do array original, exceto o da própria posição. Não use divisão.
+# 🔹 STRINGS
 
-🔴 6. Subarray com Maior Soma (Kadane)
+## 🟢 7. Verificar Palíndromo
+Verifique se uma string é igual quando lida de trás para frente.
 
-Implemente um algoritmo eficiente (O(n)) para encontrar o subarray contíguo cuja soma seja a maior possível.
+## 🟢 8. Contar Frequência de Caracteres (Sem Map)
+Conte quantas vezes cada caractere aparece em uma string.  
+Não utilize `HashMap`.
 
-🔹 STRINGS
-🟢 7. Verificar Palíndromo
+## 🟡 9. Verificar Anagrama (Sem Sort)
+Verifique se duas strings são anagramas sem ordenar os caracteres.
 
-Dada uma string, verifique se ela é igual quando lida de trás para frente.
+## 🟡 10. Compactação de String
+Transforme `"aaabbc"` em `"a3b2c1"`.  
+Se a versão compactada for maior que a original, retorne a original.
 
-🟢 8. Contar Frequência de Caracteres (Sem Map)
+## 🟠 11. Primeiro Caractere Não Repetido
+Encontre o primeiro caractere que não se repete em uma string.
 
-Dada uma string, conte quantas vezes cada caractere aparece, sem utilizar HashMap ou estruturas prontas de contagem.
+## 🔴 12. Maior Substring Sem Caracteres Repetidos
+Retorne o tamanho da maior substring que não contenha caracteres repetidos.
 
-🟡 9. Verificar Anagrama (Sem Sort)
+---
 
-Dadas duas strings, verifique se são anagramas sem ordenar as strings.
+# 🔹 MATRIZES
 
-🟡 10. Compactação de String
+## 🟢 13. Soma da Diagonal Principal
+Calcule a soma dos elementos da diagonal principal de uma matriz quadrada.
 
-Implemente uma função que transforme "aaabbc" em "a3b2c1". Caso a string compactada seja maior que a original, retorne a original.
+## 🟢 14. Maior Elemento da Matriz
+Encontre o maior valor presente em uma matriz de inteiros.
 
-🟠 11. Primeiro Caractere Não Repetido
+## 🟡 15. Transpor Matriz
+Gere a matriz transposta (troque linhas por colunas).
 
-Dada uma string, encontre o primeiro caractere que não se repete.
+## 🟠 16. Percorrer Matriz em Espiral
+Imprima os elementos da matriz em ordem espiral (sentido horário).
 
-🔴 12. Maior Substring Sem Caracteres Repetidos
+## 🔴 17. Contar Ilhas
+Dada uma matriz com `0`s (água) e `1`s (terra), conte quantas ilhas existem.  
+Uma ilha é formada por células conectadas horizontal ou verticalmente.
 
-Dada uma string, encontre o tamanho da maior substring que não contenha caracteres repetidos.
+---
 
-🔹 MATRIZES
-🟢 13. Soma da Diagonal Principal
+# 🔹 RECURSÃO
 
-Dada uma matriz quadrada, calcule a soma dos elementos da diagonal principal.
-
-🟢 14. Maior Elemento da Matriz
-
-Dada uma matriz de inteiros, encontre o maior valor presente nela.
-
-🟡 15. Transpor Matriz
-
-Dada uma matriz quadrada, gere sua matriz transposta (troque linhas por colunas).
-
-🟠 16. Percorrer Matriz em Espiral
-
-Dada uma matriz, imprima seus elementos em ordem espiral (sentido horário).
-
-🔴 17. Contar Ilhas
-
-Dada uma matriz contendo 0s (água) e 1s (terra), conte quantas ilhas existem. Uma ilha é formada por células 1 conectadas horizontal ou verticalmente.
-
-🔹 RECURSÃO
-🟢 18. Fatorial Recursivo
-
+## 🟢 18. Fatorial Recursivo
 Implemente o cálculo de fatorial usando recursão.
 
-🟢 19. Soma dos Dígitos
+## 🟢 19. Soma dos Dígitos
+Retorne a soma dos dígitos de um número usando recursão.
 
-Dado um número inteiro positivo, retorne a soma de seus dígitos usando recursão.
+## 🟡 20. Fibonacci Recursivo
+Implemente a sequência de Fibonacci utilizando recursão.
 
-🟡 20. Fibonacci Recursivo
+## 🟠 21. Potência com Exponenciação Rápida
+Implemente potência utilizando divisão do expoente por 2 para otimizar a complexidade.
 
-Implemente a sequência de Fibonacci usando recursão.
+## 🔴 22. Torre de Hanói
+Implemente a solução recursiva para mover N discos respeitando as regras do problema.
 
-🟠 21. Potência com Exponenciação Rápida
+---
 
-Implemente potência usando divisão do expoente por 2 para otimizar a complexidade.
+# 🔹 ORDENAÇÃO E BUSCA
 
-🔴 22. Torre de Hanói
+## 🟢 23. Bubble Sort
+Implemente manualmente o algoritmo Bubble Sort.
 
-Implemente a solução recursiva para mover N discos de uma torre para outra, respeitando as regras do problema.
+## 🟢 24. Busca Linear
+Implemente busca linear para encontrar um elemento em um array.
 
-🔹 ORDENAÇÃO E BUSCA
-🟢 23. Bubble Sort
+## 🟡 25. Selection Sort
+Implemente manualmente o algoritmo Selection Sort.
 
-Implemente o algoritmo Bubble Sort manualmente.
-
-🟢 24. Busca Linear
-
-Implemente a busca linear para encontrar um valor dentro de um array.
-
-🟡 25. Selection Sort
-
-Implemente o algoritmo Selection Sort.
-
-🟡 26. Busca Binária
-
+## 🟡 26. Busca Binária
 Implemente busca binária em um array previamente ordenado.
 
-🟠 27. Merge Sort
-
+## 🟠 27. Merge Sort
 Implemente o algoritmo Merge Sort utilizando divisão e conquista.
 
-🔴 28. Quick Sort
-
+## 🔴 28. Quick Sort
 Implemente o algoritmo Quick Sort com escolha de pivô.
 
-🔹 POO
-🟢 29. Classe Produto
+---
 
-Crie uma classe Produto com atributos nome e preço, e método para aplicar desconto percentual.
+# 🔹 POO
 
-🟢 30. Conta Bancária
+## 🟢 29. Classe Produto
+Crie uma classe `Produto` com:
+- nome
+- preço
+- método para aplicar desconto percentual
 
-Crie uma classe ContaBancaria com saldo e métodos para depositar e sacar, validando saldo suficiente.
+## 🟢 30. Conta Bancária
+Crie uma classe `ContaBancaria` com:
+- saldo
+- método depositar
+- método sacar (validando saldo suficiente)
 
-🟡 31. Sistema de Biblioteca
+## 🟡 31. Sistema de Biblioteca
+Crie classes `Livro` e `Biblioteca` com funcionalidades:
+- adicionar livros
+- listar disponíveis
+- emprestar livros
 
-Crie classes Livro e Biblioteca. Permita adicionar livros, listar livros disponíveis e emprestar livros.
+## 🟠 32. Sistema de Estacionamento
+Implemente controle de:
+- vagas disponíveis
+- entrada de veículos
+- saída de veículos
 
-🟠 32. Sistema de Estacionamento
+## 🔴 33. Sistema de Caixa Eletrônico
+Implemente um sistema contendo:
+- Depósito
+- Saque
+- Transferência
+- Histórico de transações
+- Validação de saldo
 
-Crie um sistema que controle vagas disponíveis, entrada e saída de veículos.
+---
 
-🔴 33. Sistema de Caixa Eletrônico
+# 🎯 Objetivo
 
-Implemente um sistema com:
+Essa lista cobre:
 
-Depósito
+✔ Manipulação de Arrays  
+✔ Strings  
+✔ Matrizes  
+✔ Recursão  
+✔ Ordenação e Busca  
+✔ Programação Orientada a Objetos  
 
-Saque
-
-Transferência
-
-Histórico de transações
-
-Validação de saldo
+A meta é resolver todos progressivamente e fortalecer a base antes de avançar para estruturas de dados mais complexas e backend.
